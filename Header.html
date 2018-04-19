@@ -1,0 +1,131 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>MovieSite</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+ *{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: ivory;
+}
+#header{
+	width: 100%;
+	height: 80px;
+	background: #333;
+	box-shadow: 0px 2px 4px gray;
+}
+#PageTitle{
+	width:200px;
+	height: 20px;
+	float: left;
+	padding-left:40px;
+    text-decoration: none;
+	color: white;
+	font-family: cursive;
+	font-size: 20px;
+	line-height: 80px;
+	display: block;
+	text-align: center;
+}
+#wishlist{
+	width:1000px;
+	height: 80px;
+	margin: 0px auto;
+	float: right;
+}
+#wishlist>li{
+	float: right;
+	list-style: none;
+	width: 190px;height: 80px;
+
+    color: azure;
+}
+#wishlist>li>a {
+    
+    color: aliceblue;
+}
+li>a{
+	text-decoration: none;
+	color: white;
+	font-family: cursive;
+	font-size: 20px;
+	line-height: 80px;
+	display: block;
+	text-align: center;
+}
+
+h2>a{
+	text-decoration: none;
+	color: white;
+	font-family: cursive;
+	font-size: 40px;
+	line-height: 80px;
+	display: block;
+	text-align: center;
+    
+}
+    
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+}
+
+
+
+ ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    z-index: 1;
+}
+ ul li a:hover {
+    background-color: lightgrey; 
+    
+}
+ ul li ul li {
+    display: none;
+    
+}
+ul li:hover ul li {
+    
+    display: block;
+}
+
+#res_btn{
+	width: 50px;
+	height: 50px;
+	float: right;
+	display: none;
+}
+
+	#navbar{
+		width:1px;
+		height: 80px;
+		margin: 0px auto;
+		float: right;
+	}
+	#navbar>li{
+		float: right;
+		list-style: none;
+		width: 150px;
+		height: 80px;
+		border-right:1px solid #534444;
+		border-left: 1px solid #534444;
+	}   
+</style>
+</head>
+<body>
+<div id="header">
+    <div id="PageTitle"><h2><a href="FrontPage.php">MovieSite</a></h2></div>
+    <ul id="wishlist">
+		<li><a href="Wishlist.php">Wishlist</a></li>      
+    </ul>
+</div>
+</body>
+</html>
